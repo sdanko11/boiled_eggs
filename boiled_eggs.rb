@@ -1,5 +1,3 @@
-require 'pry'
-
 def cooking_time(eggs)
   number_of_batches = eggs.to_f/8
   if number_of_batches == 0
@@ -16,5 +14,3 @@ def cooking_time(eggs)
     time_to_cook = number_of_batches.to_i * 5
   end
 end
-
-puts cooking_time(8)
