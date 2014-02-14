@@ -11,5 +11,4 @@ def cooking_time(eggs)
   else
     time_to_cook = number_of_batches * 5
   end 
-  time_to_cook 
 end
